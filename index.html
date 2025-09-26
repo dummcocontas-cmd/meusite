@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Site</title>
+  <link rel="preload" href="assets/logo.svg" as="image" type="image/svg+xml">
+  <style>
+    :root{--bg:#0f172a;--fg:#e2e8f0;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+         background:var(--bg);color:var(--fg);display:grid;place-items:center;min-height:100vh}
+    .wrap{padding:2rem;text-align:center;max-width:900px}
+    .brand{display:flex;gap:1rem;align-items:center;justify-content:center;margin-bottom:1rem}
+    .brand img{height:64px;width:auto}
+    .btn{display:inline-block;padding:.8rem 1.1rem;border-radius:.8rem;border:1px solid rgba(255,255,255,.25);
+         text-decoration:none;color:var(--fg)}
+    footer{opacity:.7;margin-top:2rem;font-size:.9rem}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="Logo do site">
+      <h1>Site publicado com hospedagem gratuita</h1>
+    </div>
+    <p>Se você está vendo esta página no celular, a logo foi carregada da nuvem 🎉</p>
+    <p><a class="btn" href="assets/logo.svg" target="_blank" rel="noopener">Abrir logo (teste)</a></p>
+    <footer>Substitua <code>assets/logo.svg</code> pela sua logo real e publique.</footer>
+  </main>
+</body>
+</html>
